@@ -27,7 +27,6 @@
             width: 100%;
             max-width: 900px; 
             border: 4px double #FF5500; 
-            /* MODIFIED: Higher transparency (0.70 vs 0.92) to let the VHS texture bleed through */
             background: rgba(0, 0, 0, 0.70); 
             border-collapse: collapse;
             margin-top: 20px;
@@ -51,6 +50,16 @@
         .divider { border-top: 2px dashed #FF5500; margin: 15px 0; }
         img { max-width: 100%; height: auto; display: block; margin: 10px 0; border: 1px solid #FF5500; }
         .bio-text { color: #ffffff; line-height: 1.6; font-size: 0.95em; }
+        
+        /* MARQUEE SIGNAL TUNING */
+        marquee {
+            background: #FF5500;
+            color: #000000;
+            font-weight: bold;
+            padding: 3px 0;
+            margin-top: 10px;
+            font-size: 0.85em;
+        }
     </style>
 </head>
 <body>
@@ -60,6 +69,8 @@
         <td colspan="2" class="header">
             <strong style="font-size: 1.8em; color: #FF5500;">BAMBRA // ANTI-MUSIC ARCHIVE</strong>
             <div class="subtitle">NOTTINGHAM // CREATIVE MUSIC TECHNOLOGY</div>
+            <!-- RESTORED RUNNING MARQUEE TEXT -->
+            <marquee scrollamount="4">SIGNAL STATUS: UNWELL // ANTI-MUSIC ARCHITECTURE // FREQUENCY SATURATION LIVE</marquee>
         </td>
     </tr>
     <tr>
@@ -83,7 +94,6 @@
             <div class="divider"></div>
 
             <strong style="color: #FFCC00;">IDENTITY_NODE:</strong>
-            
             <img src="Bambra%20Final%20Transparent.png" alt="BAMBRA SIGNAL">
 
             <div class="divider"></div>
