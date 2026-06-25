@@ -59,6 +59,20 @@
             border: 1px solid #FF5500;
         }
 
+        /* ALIEN GLITCH ANIMATION CELL */
+        .alien-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .alien-node {
+            width: 50px;
+            height: auto;
+            image-rendering: pixelated;
+            border: none;
+            opacity: 0.8;
+        }
+
         marquee {
             background: #FF5500;
             color: #000000;
@@ -85,8 +99,7 @@
         <td colspan="2" class="header">
             <strong style="font-size: 1.8em; color: #FF5500;">BAMBRA // ANTI-MUSIC ARCHIVE</strong>
             <div class="subtitle">NOTTINGHAM // CREATIVE MUSIC TECHNOLOGY</div>
-            <marquee scrollamount="4">	
-Welcome to the Unwell Signal, the collection point for all Bambra activityâ€”noise, dark ambient, trippy hip hop, visuals and vlogs.</marquee>
+            <marquee scrollamount="4">Welcome to the Unwell Signal, the collection point for all Bambra activityâ€”noise, dark ambient, trippy hip hop, visuals and vlogs.</marquee>
         </td>
     </tr>
     <tr>
@@ -99,14 +112,16 @@ Welcome to the Unwell Signal, the collection point for all Bambra activityâ€�
             • <a href="#">VISUAL_DATA</a>
             
             <br>
-            <a href="VHS Rip 1980.jpg" target="_blank">
-                <img src="VHS Rip 1980.jpg" alt="FIELD COMPONENT" class="nav-thumb">
+            <a href="VHS%20Rip%201980.jpg" target="_blank">
+                <img src="VHS%20Rip%201980.jpg" alt="FIELD COMPONENT" class="nav-thumb">
             </a>
+
+            <!-- ALIEN GRAPHIC ARTIFACT DEPLOYED BENEATH THE NAVIGATION VHS IMAGE -->
+            <div class="alien-container">
+                <img src="https://web.archive.org/web/20091027082247im_/http://geocities.com/Area51/Chamber/1492/alien1.gif" alt="EXTRATERRESTRIAL ARTIFACT" class="alien-node">
+            </div>
         </td>
         <td class="content">
-            <strong style="color: #FFCC00;">SIGNAL_STATUS: UNWELL</strong>
-            <div class="divider"></div>
-
             <!-- INTRUSIVE BANNER NODE: FUTURE_PAST_ZINE -->
             <div style="margin-bottom: 20px; display: flex; justify-content: center;">
                 <a href="https://futurepastzine.bandcamp.com/album/hard-and-loud" target="_blank" style="display: block; border: 2px solid #FF5500; background: #000000; width: 468px; height: 60px; overflow: hidden; position: relative; box-shadow: 0 0 8px rgba(255, 85, 0, 0.5);">
@@ -124,7 +139,9 @@ Welcome to the Unwell Signal, the collection point for all Bambra activityâ€�
             <style>
                 @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
             </style>
-            <!-- END BANNER NODE -->
+
+            <strong style="color: #FFCC00;">SIGNAL_STATUS: UNWELL</strong>
+            <div class="divider"></div>
 
             <strong style="color: #FFCC00;">IDENTITY_NODE:</strong>
             <img src="Bambra%20Final%20Transparent.png" alt="BAMBRA SIGNAL">
@@ -136,3 +153,13 @@ Welcome to the Unwell Signal, the collection point for all Bambra activityâ€�
                 <p>His broad musical influences, much like his mixed Irish, Pakistani & Swiss ancestry, range: from spooky drone and dark ambient music to trippy downtempo, distorted big beat, techstep, and head-banging tracks. in the bambra context, this is a violent, involuntary physical reaction to frequency saturation and distorted transients—altered beats that serve as a response to the impact of the sound. He also pulls from punk, cyber synth, and the Asian underground. A Bachelor of Arts in Creative Music Technology from Trent University (2016) under his belt, he is equally dedicated to visual arts, taking photos and videos of whatever sparks his imagination.</p>
             </div>
         </td>
+    </tr>
+</table>
+
+<div class="footer-credits">
+    <p>© 2024 BAMBRA | Designed by Jon Bambra</p>
+    <p style="color: #888888; font-size: 0.9em; margin-top: 5px;">Migrated from Matrix</p>
+</div>
+
+</body>
+</html>
