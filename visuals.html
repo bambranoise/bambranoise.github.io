@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAMBRA // VISUAL DATA</title>
+    <style>
+        body { 
+            background-color: #000000; 
+            background-image: url('IMG_20241217_075607_1~2.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #FF5500; 
+            font-family: "Courier New", monospace; 
+            margin: 0; 
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        a { color: #FFCC00; text-decoration: none; font-weight: bold; }
+        a:hover { color: #ffffff; text-decoration: underline; background: #FF5500; }
+        
+        .main-grid { 
+            width: 100%;
+            max-width: 900px; 
+            border: 4px double #FF5500; 
+            background: rgba(0, 0, 0, 0.70); 
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .header { 
+            border-bottom: 2px solid #FF5500; 
+            padding: 20px; 
+            text-align: center; 
+        }
+        .nav { 
+            width: 220px; 
+            border-right: 2px dashed #FF5500; 
+            padding: 15px; 
+            vertical-align: top; 
+        }
+        .content { 
+            padding: 25px; 
+            vertical-align: top; 
+        }
+        .subtitle { color: #FFCC00; font-size: 0.85em; margin-top: 5px; letter-spacing: 2px; }
+        .divider { border-top: 2px dashed #FF5500; margin: 15px 0; }
+        img { max-width: 100%; height: auto; display: block; margin: 10px 0; border: 1px solid #FF5500; }
+        .gallery-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px; }
+        
+        .nav-thumb {
+            width: 100%;
+            max-width: 180px;
+            margin-top: 15px;
+            border: 1px solid #FF5500;
+        }
+
+        marquee {
+            background: #FF5500;
+            color: #000000;
+            font-weight: bold;
+            padding: 3px 0;
+            margin-top: 10px;
+            font-size: 0.85em;
+        }
+
+        .footer-credits {
+            margin-top: 25px;
+            font-size: 0.8em;
+            color: #FFCC00;
+            text-align: center;
+            letter-spacing: 1px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+<table class="main-grid">
+    <tr>
+        <td colspan="2" class="header">
+            <strong style="font-size: 1.8em; color: #FF5500;">BAMBRA // VISUAL DATA ARCHIVE</strong>
+            <div class="subtitle">NOTTINGHAM // PHOTOGRAPHY // VIDEO // FOUND DATA</div>
+            <marquee scrollamount="4">TRANSMISSION FEED: STILLS AND MOVING IMAGES FROM THE FIELD // UNWELL OPTICS</marquee>
+        </td>
+    </tr>
+    <tr>
+        <td class="nav">
+            <strong style="color: #FFCC00;">DATA INDEX</strong>
+            <div class="divider"></div>
+            • <a href="index.html">LOG_000 (HOME)</a><br><br>
+            • <a href="https://bambra.bandcamp.com" target="_blank">BANDCAMP_NODE</a><br><br>
+            • <a href="#">AUDIO_LOGS</a><br><br>
+            • <a href="visuals.html">VISUAL_DATA</a>
+            
+            <br>
+            <a href="VHS%20Rip%201980.jpg" target="_blank">
+                <img src="VHS%20Rip%201980.jpg" alt="FIELD COMPONENT" class="nav-thumb">
+            </a>
+        </td>
+        <td class="content">
+            <strong style="color: #FFCC00;">MOVING_IMAGES (VIDEOS)</strong>
+            <div class="divider"></div>
+            
+            <p style="color: #ffffff;">• <a href="https://www.youtube.com/watch?v=nZrU1o4GWdc" target="_blank">Bambra - Grimy (Official Video via Futurepast Zine)</a></p>
+            <div class="divider"></div>
+            <strong style="color: #FFCC00;">STILLS (PHOTOGRAPHY ARCHIVE)</strong>
+            <div class="divider"></div>
+            
+            <div class="gallery-grid">
+                <a href="cover.jpg" target="_blank"><img src="cover.jpg" alt="Photo 1"></a>
+                <a href="VHS%20Rip%201980.jpg" target="_blank"><img src="VHS%20Rip%201980.jpg" alt="Photo 2"></a>
+            </div>
+        </td>
+    </tr>
+</table>
+
+<div class="footer-credits">
+    <p>© 2024 BAMBRA | Designed by Jon Bambra</p>
+    <p style="color: #888888; font-size: 0.9em; margin-top: 5px;">Migrated from the Matrix</p>
+</div>
+
+</body>
+</html>
