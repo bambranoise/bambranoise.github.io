@@ -7,8 +7,7 @@
     <style>
         body { 
             background-color: #000000; 
-            /* URL encoded spaces to force the background to load */
-            background-image: url('IMG_20241217_075607_1~2.jpg');
+            background-image: url('IMG_20241217_075607_1~2.jpg.jpg');
             background-size: cover;
             background-attachment: fixed;
             background-position: center;
@@ -20,13 +19,16 @@
             display: flex;
             justify-content: center;
         }
+        
         a { color: #FFCC00; text-decoration: none; font-weight: bold; }
         a:hover { color: #ffffff; text-decoration: underline; background: #FF5500; }
+        
         .main-grid { 
             width: 100%;
             max-width: 900px; 
             border: 4px double #FF5500; 
-            background: rgba(0, 0, 0, 0.92); 
+            /* MODIFIED: Higher transparency (0.70 vs 0.92) to let the VHS texture bleed through */
+            background: rgba(0, 0, 0, 0.70); 
             border-collapse: collapse;
             margin-top: 20px;
         }
@@ -81,15 +83,14 @@
             <div class="divider"></div>
 
             <strong style="color: #FFCC00;">IDENTITY_NODE:</strong>
-            <a href="Bambra%20Final%20Transparent.png" target="_blank">
-                <img src="Bambra%20Final%20Transparent.png" alt="BAMBRA SIGNAL">
-            </a>
+            
+            <img src="Bambra%20Final%20Transparent.png" alt="BAMBRA SIGNAL">
 
             <div class="divider"></div>
             <strong style="color: #FFCC00;">RAW DATA FRAGMENTS:</strong>
             <br><br>
 
-            <a href="IMG_20241217_075607_1~2.jpg" target="_blank">
+            <a href="VHS Rip 1980.jpg" target="_blank">
                 <img src="VHS Rip 1980.jpg" alt="FIELD COMPONENT">
             </a>
         </td>
