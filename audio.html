@@ -51,9 +51,8 @@
         .divider { border-top: 2px dashed #FF5500; margin: 15px 0; }
         img { max-width: 100%; height: auto; display: block; margin: 10px 0; border: 1px solid #FF5500; }
         
-        /* DISCOGRAPHY LAYOUT */
         .release-box { display: flex; gap: 20px; margin-bottom: 30px; background: rgba(20, 20, 20, 0.5); padding: 15px; border: 1px dashed #FF5500; }
-        .release-art { width: 150px; height: 150px; flex-shrink: 0; }
+        .release-art { width: 150px; height: 150px; flex-shrink: 0; object-fit: cover; }
         .release-info { flex-grow: 1; }
         .tracklist { margin-top: 10px; font-size: 0.9em; color: #ffffff; list-style-type: none; padding-left: 0; }
         .tracklist li { margin-bottom: 4px; }
@@ -90,8 +89,8 @@
     <tr>
         <td colspan="2" class="header">
             <strong style="font-size: 1.8em; color: #FF5500;">BAMBRA // DISCOGRAPHY</strong>
-            <div class="subtitle">FREQUENCY ARCHIVE // SONIC UNWELLNESS RELEASES</div>
-            <marquee scrollamount="4">AUDIO MATRIX LOGGED // DIRECT NODE CONNECTIONS ACTIVE</marquee>
+            <div class="subtitle">FREQUENCY ARCHIVE // ANTI-MUSIC LOGS</div>
+            <marquee scrollamount="4">AUDIO MATRIX LOGGED // HIJACKED TEMPOS // CONSTRUCTED TRASH</marquee>
         </td>
     </tr>
     <tr>
@@ -112,31 +111,56 @@
             <strong style="color: #FFCC00;">SONIC_RELEASES</strong>
             <div class="divider"></div>
 
+            <!-- RELEASE 04 -->
             <div class="release-box">
                 <img src="cover.jpg" alt="HARD AND LOUD" class="release-art">
                 <div class="release-info">
-                    <strong style="color: #FFCC00; font-size: 1.1em;">HARD AND LOUD (2024)</strong><br>
-                    <span style="font-size: 0.85em; color: #888;">Released via Futurepast Zine</span><br>
-                    <a href="https://futurepastzine.bandcamp.com/album/hard-and-loud" target="_blank" style="font-size: 0.85em;">[ GO TO RELEASE NODE ]</a>
-                    
+                    <strong style="color: #FF5500; font-size: 1.1em;">HARD AND LOUD (2021)</strong><br>
+                    <span style="font-size: 0.85em; color: #888;">Format: Mini-Album / Cassette // Label: Futurepast Zine</span><br>
+                    <a href="https://futurepastzine.bandcamp.com/album/hard-and-loud" target="_blank" style="font-size: 0.85em; color: #FFCC00;">[ CONNECT TO OUTSIDE NODE ]</a>
                     <ul class="tracklist">
-                        <li>01. Grimy (Official Video Out Now)</li>
-                        <li>02. Track Title 02</li>
-                        <li>03. Track Title 03</li>
+                        <li>• Grimy</li>
+                        <li>• Additional audio components archived at source</li>
                     </ul>
                 </div>
             </div>
 
+            <!-- RELEASE 03 -->
             <div class="release-box">
-                <div class="release-art" style="border: 1px dashed #FF5500; display: flex; align-items: center; justify-content: center; color: #FF5500; font-size: 0.8em; text-align: center;">[ DROP PIC_2 HERE ]</div>
+                <img src="pic2.jpg" alt="DEAD RESOURCES" class="release-art" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div style="display:none; width:150px; height:150px; border:1px dashed #FF5500; align-items:center; justify-content:center; color:#FF5500; font-size:0.8em; text-align:center;" class="release-art">[ ART_03 ]</div>
                 <div class="release-info">
-                    <strong style="color: #FFCC00; font-size: 1.1em;">RELEASE_NODE_002</strong><br>
-                    <span style="font-size: 0.85em; color: #888;">Project Archive Details</span><br>
-                    <a href="#" style="font-size: 0.85em;">[ LINK ]</a>
-                    
+                    <strong style="color: #FF5500; font-size: 1.1em;">DEAD RESOURCES / WE ARE ALL IN HELL (2021)</strong><br>
+                    <span style="font-size: 0.85em; color: #888;">Format: 2×File, WAV // Split with Yodest // Label: Not On Label</span><br>
                     <ul class="tracklist">
-                        <li>01. Audio Data Track</li>
-                        <li>02. Audio Data Track</li>
+                        <li>01. Bambra - Dead Resources</li>
+                        <li>02. Yodest - We Are All In Hell</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- RELEASE 02 -->
+            <div class="release-box">
+                <img src="pic3.jpg" alt="ILLEGAL TOOLZ" class="release-art" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div style="display:none; width:150px; height:150px; border:1px dashed #FF5500; align-items:center; justify-content:center; color:#FF5500; font-size:0.8em; text-align:center;" class="release-art">[ ART_02 ]</div>
+                <div class="release-info">
+                    <strong style="color: #FF5500; font-size: 1.1em;">ILLEGAL TOOLZ (2018)</strong><br>
+                    <span style="font-size: 0.85em; color: #888;">Format: 3×File, WAV // Label: Bambra Productions [002]</span><br>
+                    <ul class="tracklist">
+                        <li>• Audio payloads logged under code 002</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- RELEASE 01 -->
+            <div class="release-box">
+                <img src="pic4.jpg" alt="KONCRETE JUNGLE" class="release-art" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div style="display:none; width:150px; height:150px; border:1px dashed #FF5500; align-items:center; justify-content:center; color:#FF5500; font-size:0.8em; text-align:center;" class="release-art">[ ART_01 ]</div>
+                <div class="release-info">
+                    <strong style="color: #FF5500; font-size: 1.1em;">KONCRETE JUNGLE EP (2017)</strong><br>
+                    <span style="font-size: 0.85em; color: #888;">Format: 3×File, WAV, EP // Label: Bambra Productions [001]</span><br>
+                    <ul class="tracklist">
+                        <li>• Initial frequency destabilization logs</li>
                     </ul>
                 </div>
             </div>
@@ -146,8 +170,8 @@
 </table>
 
 <div class="footer-credits">
-    <p>© 2024 BAMBRA | Designed by Jon Bambra</p>
-    <p style="color: #888888; font-size: 0.9em; margin-top: 5px;">Migrated from the Matrix</p>
+    <p>© 2026 BAMBRA | Designed by Jon Bambra</p>
+    <p style="color: #888888; font-size: 0.9em; margin-top: 5px;">Migrated from Matrix // Unwell Optics Active</p>
 </div>
 
 </body>
