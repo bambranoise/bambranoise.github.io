@@ -1,4 +1,5 @@
-<!-- 
+
+<!--
 ============================================================
 BAMBRA // ANTI-MUSIC ARCHIVE // SIGNAL TRANSMISSION TERMINAL
 ORIGIN: NOTTINGHAM / UNWELL SOUND LABS
@@ -11,63 +12,245 @@ PLAGIARISM REVEALS LACK OF ORIGINAL INTENT.
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BAMBRA // ANTI-MUSIC ARCHIVE</title>
+
+    <!-- GOOGLE SEARCH IDENTITY -->
+    <title>Bambra | Industrial & Experimental Electronic Music</title>
+
+    <meta name="description"
+          content="Official website of Bambra, a Nottingham-based industrial and experimental electronic music artist. Altered beats, lo-fi textures, distorted rhythms, dark ambient and unconventional sound production.">
+
+    <meta name="robots" content="index, follow">
+
+    <link rel="canonical" href="https://bambranoise.net/">
+
+    <meta name="theme-color" content="#000000">
+
+    <!-- SOCIAL MEDIA PREVIEW -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Bambra">
+    <meta property="og:title"
+          content="Bambra | Industrial & Experimental Electronic Music">
+
+    <meta property="og:description"
+          content="Bambra — independent industrial and experimental electronic music from Nottingham, UK. Altered beats, distorted textures, lo-fi sound and unconventional production.">
+
+    <meta property="og:url" content="https://bambranoise.net/">
+
+    <meta property="og:image"
+          content="https://bambranoise.net/Bambra%20Final%20Transparent.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- STRUCTURED DATA: OFFICIAL MUSIC ARTIST -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicGroup",
+      "@id": "https://bambranoise.net/#bambra",
+      "name": "Bambra",
+      "url": "https://bambranoise.net/",
+      "description": "Bambra is an independent industrial and experimental electronic music project from Nottingham, UK, exploring altered beats, distorted rhythms, lo-fi textures, dark ambient and unconventional production.",
+      "genre": [
+        "Industrial",
+        "Experimental Electronic",
+        "Dark Ambient",
+        "Breakbeat",
+        "Jungle"
+      ],
+      "location": {
+        "@type": "Place",
+        "name": "Nottingham, United Kingdom"
+      },
+      "member": {
+        "@type": "Person",
+        "name": "Jon Bambra"
+      },
+      "image": "https://bambranoise.net/Bambra%20Final%20Transparent.png",
+      "sameAs": [
+        "https://bambra.bandcamp.com/",
+        "https://open.spotify.com/artist/69mQrMkzgeUOEtbyclUWeQ",
+        "https://www.discogs.com/artist/6575079-Bambra-2",
+        "https://soundcloud.com/bambra-noise",
+        "https://www.instagram.com/bambranoise/",
+        "https://www.mixcloud.com/bambranoise/",
+        "https://www.tiktok.com/@bambranoise"
+      ]
+    }
+    </script>
+
     <style>
-        body { 
-            background-color: #000000; 
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000000;
             background-image: url('IMG_20241217_075607_1~2.jpg');
             background-size: cover;
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
             color: #8A8D8F;
-            font-family: "Courier New", monospace; 
-            margin: 0; 
+            font-family: "Courier New", monospace;
+            margin: 0;
             padding: 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
         }
-        
-        a { color: #00AEEF; text-decoration: none; font-weight: bold; }
-        a:hover { color: #000000; text-decoration: none; background: #00AEEF; }
-        
-        .main-grid { 
+
+        a {
+            color: #00AEEF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #000000;
+            text-decoration: none;
+            background: #00AEEF;
+        }
+
+        a:focus-visible {
+            outline: 2px solid #00AEEF;
+            outline-offset: 3px;
+        }
+
+        .main-grid {
             width: 100%;
-            max-width: 900px; 
+            max-width: 900px;
             background: rgba(10, 11, 12, 0.93);
             border-collapse: collapse;
             margin-top: 20px;
             border: 4px solid;
-            border-image: linear-gradient(135deg, #1F2021 0%, #D1D4D6 25%, #101111 50%, #FFFFFF 75%, #5A5D5F 100%) 1;
+            border-image: linear-gradient(
+                135deg,
+                #1F2021 0%,
+                #D1D4D6 25%,
+                #101111 50%,
+                #FFFFFF 75%,
+                #5A5D5F 100%
+            ) 1;
             box-shadow: 0 0 15px rgba(0, 174, 239, 0.15);
         }
-        .header { 
+
+        .header {
             border-bottom: 2px solid #5A5D5F;
-            padding: 20px; 
-            text-align: center; 
+            padding: 20px;
+            text-align: center;
         }
-        .nav { 
-            width: 220px; 
-            border-right: 2px dashed #5A5D5F; 
-            padding: 15px; 
-            vertical-align: top; 
+
+        .site-title {
+            font-size: 1.8em;
+            color: #B5B8BA;
+            text-shadow: 1px 1px 2px #000000;
+            font-weight: bold;
+            margin: 0;
         }
-        .content { 
-            padding: 25px; 
-            vertical-align: top; 
+
+        .nav {
+            width: 220px;
+            border-right: 2px dashed #5A5D5F;
+            padding: 15px;
+            vertical-align: top;
         }
-        .subtitle { color: #00AEEF; font-size: 0.85em; margin-top: 5px; letter-spacing: 2px; }
-        .divider { border-top: 2px dashed #5A5D5F; margin: 15px 0; }
-        img { max-width: 100%; height: auto; display: block; margin: 10px 0; border: 1px solid #5A5D5F; }
-        .bio-text { color: #B5B8BA; line-height: 1.6; font-size: 0.95em; }
-        .terminal-block { background: #000000; border: 1px solid #5A5D5F; padding: 10px; font-size: 0.8em; color: #00AEEF; margin-top: 15px; }
-        
+
+        .content {
+            padding: 25px;
+            vertical-align: top;
+        }
+
+        .subtitle {
+            color: #00AEEF;
+            font-size: 0.85em;
+            margin-top: 5px;
+            letter-spacing: 2px;
+        }
+
+        .divider {
+            border-top: 2px dashed #5A5D5F;
+            margin: 15px 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+            border: 1px solid #5A5D5F;
+        }
+
+        .bio-text {
+            color: #B5B8BA;
+            line-height: 1.6;
+            font-size: 0.95em;
+        }
+
+        .terminal-block {
+            background: #000000;
+            border: 1px solid #5A5D5F;
+            padding: 10px;
+            font-size: 0.8em;
+            color: #00AEEF;
+            margin-top: 15px;
+        }
+
         .nav-thumb {
             width: 100%;
             max-width: 180px;
             margin-top: 15px;
             border: 1px solid #5A5D5F;
+        }
+
+        .artist-links {
+            background: #000000;
+            border: 1px dashed #5A5D5F;
+            padding: 12px;
+            margin-top: 20px;
+            font-size: 0.85em;
+            line-height: 2;
+        }
+
+        .artist-links a {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .section-heading {
+            color: #00AEEF;
+            font-size: 1em;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .release-banner {
+            display: block;
+            width: 468px;
+            max-width: 100%;
+            height: 60px;
+            overflow: hidden;
+            position: relative;
+            border: 2px solid #00AEEF;
+            background-image:
+                linear-gradient(
+                    rgba(0, 0, 0, 0.45),
+                    rgba(0, 0, 0, 0.45)
+                ),
+                url('0026628020_10.jpeg');
+            background-size: cover;
+            background-position: center;
+            box-shadow: 0 0 8px rgba(0, 174, 239, 0.4);
+        }
+
+        .release-banner-inner {
+            display: flex;
+            height: 100%;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 10px;
+            font-family: "Courier New", monospace;
+            font-size: 11px;
+            letter-spacing: 1px;
         }
 
         marquee {
@@ -79,31 +262,121 @@ PLAGIARISM REVEALS LACK OF ORIGINAL INTENT.
             font-size: 0.85em;
         }
 
-        @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        /* MOBILE COMPATIBILITY */
+        @media (max-width: 700px) {
+            body {
+                padding: 10px;
+                background-attachment: scroll;
+            }
+
+            .main-grid,
+            .main-grid tbody,
+            .main-grid tr,
+            .main-grid td {
+                display: block;
+                width: 100%;
+            }
+
+            .main-grid {
+                margin-top: 10px;
+            }
+
+            .nav {
+                border-right: none;
+                border-bottom: 2px dashed #5A5D5F;
+            }
+
+            .content {
+                padding: 15px;
+            }
+
+            .header {
+                padding: 15px;
+            }
+
+            .site-title {
+                font-size: 1.4em;
+            }
+
+            .release-banner-inner {
+                font-size: 9px;
+                letter-spacing: 0;
+                padding: 0 5px;
+            }
+
+            .subtitle {
+                letter-spacing: 1px;
+            }
+        }
     </style>
 </head>
+
 <body>
 
 <table class="main-grid">
     <tr>
         <td colspan="2" class="header">
-            <strong style="font-size: 1.8em; color: #B5B8BA; text-shadow: 1px 1px 2px #000000;">BAMBRA // ANTI-MUSIC ARCHIVE</strong>
-            <div class="subtitle">NOTTINGHAM // CREATIVE MUSIC TECHNOLOGY</div>
-            <marquee scrollamount="4">Welcome to the Unwell Signal, the collection point for all Bambra activity—noise, dark ambient, trippy hip hop, visuals and vlogs.</marquee>
+
+            <h1 class="site-title">
+                BAMBRA // ANTI-MUSIC ARCHIVE
+            </h1>
+
+            <div class="subtitle">
+                NOTTINGHAM // CREATIVE MUSIC TECHNOLOGY
+            </div>
+
+            <marquee scrollamount="4">
+                Welcome to the Unwell Signal, the collection point
+                for all Bambra activity—noise, dark ambient,
+                trippy hip hop, visuals and vlogs.
+            </marquee>
+
         </td>
     </tr>
+
     <tr>
         <td class="nav">
-            <strong style="color: #00AEEF;">DATA INDEX</strong>
+
+            <strong style="color: #00AEEF;">
+                DATA INDEX
+            </strong>
+
             <div class="divider"></div>
-            • <a href="index.html">LOG_000 (MAIN)</a><br><br>
-            • <a href="https://bambra.bandcamp.com" target="_blank">BANDCAMP_NODE</a><br><br>
-            • <a href="audio.html">AUDIO_LOGS</a><br><br>
-            • <a href="visuals.html">VISUAL_DATA</a>
-            
+
+            • <a href="index.html">
+                LOG_000 (MAIN)
+            </a><br><br>
+
+            • <a href="https://bambra.bandcamp.com"
+                 target="_blank"
+                 rel="noopener noreferrer">
+                BANDCAMP_NODE
+            </a><br><br>
+
+            • <a href="audio.html">
+                AUDIO_LOGS
+            </a><br><br>
+
+            • <a href="visuals.html">
+                VISUAL_DATA
+            </a>
+
             <div class="divider"></div>
-            <strong style="color: #00AEEF;">SYSTEM DATA</strong>
-            <div style="font-size:0.75em; color:#5A5D5F; margin-top:5px;">
+
+            <strong style="color: #00AEEF;">
+                SYSTEM DATA
+            </strong>
+
+            <div style="
+                font-size: 0.75em;
+                color: #5A5D5F;
+                margin-top: 5px;
+            ">
                 LOC: NG7 / UK<br>
                 DEG: BA (HONS)<br>
                 FREQ: UNWELL<br>
@@ -111,55 +384,243 @@ PLAGIARISM REVEALS LACK OF ORIGINAL INTENT.
             </div>
 
             <br>
-            <a href="VHS%20Rip%201980.jpg" target="_blank">
-                <img src="VHS%20Rip%201980.jpg" alt="FIELD COMPONENT" class="nav-thumb">
+
+            <a href="VHS%20Rip%201980.jpg"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                <img src="VHS%20Rip%201980.jpg"
+                     alt="Bambra VHS field photography"
+                     class="nav-thumb">
             </a>
+
         </td>
+
         <td class="content">
-            <div style="margin-bottom: 20px; display: flex; justify-content: center;">
-                <a href="https://futurepastzine.bandcamp.com/album/hard-and-loud" target="_blank" style="display: block; border: 2px solid #00AEEF; background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('0026628020_10.jpeg'); background-size: cover; background-position: center; width: 468px; height: 60px; overflow: hidden; position: relative; box-shadow: 0 0 8px rgba(0, 174, 239, 0.4);">
-                    <div style="display: flex; height: 100%; align-items: center; justify-content: space-between; padding: 0 10px; font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 1px;">
-                        <div style="color: #000000; background: #00AEEF; padding: 2px 5px; font-weight: bold; font-size: 10px; animation: blink 1s infinite steps(1);">WARNING</div>
-                        <div style="color: #FFFFFF; text-align: center; font-weight: bold; line-height: 1.2; text-shadow: 1px 1px 4px #000000, -1px -1px 4px #000000;">
-                            FUTURE_PAST_ZINE // HARD_AND_LOUD<br>
-                            <span style="color: #00AEEF; font-size: 9px;">[ TRANSMISSION RE-ROUTED: CLICK TO INTERCEPT ]</span>
+
+            <!-- ORIGINAL FUTUREPAST ZINE BANNER -->
+            <div style="
+                margin-bottom: 20px;
+                display: flex;
+                justify-content: center;
+            ">
+
+                <a href="https://futurepastzine.bandcamp.com/album/hard-and-loud"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="release-banner"
+                   aria-label="Hard and Loud by Bambra, Futurepast Zine">
+
+                    <div class="release-banner-inner">
+
+                        <div style="
+                            color: #000000;
+                            background: #00AEEF;
+                            padding: 2px 5px;
+                            font-weight: bold;
+                            font-size: 10px;
+                            animation: blink 1s infinite steps(1);
+                        ">
+                            WARNING
                         </div>
-                        <div style="color: #00AEEF; font-weight: bold; text-shadow: 1px 1px 2px #000;">[X]</div>
+
+                        <div style="
+                            color: #FFFFFF;
+                            text-align: center;
+                            font-weight: bold;
+                            line-height: 1.2;
+                            text-shadow:
+                                1px 1px 4px #000000,
+                                -1px -1px 4px #000000;
+                        ">
+                            FUTURE_PAST_ZINE // HARD_AND_LOUD<br>
+
+                            <span style="
+                                color: #00AEEF;
+                                font-size: 9px;
+                            ">
+                                [ TRANSMISSION RE-ROUTED:
+                                CLICK TO INTERCEPT ]
+                            </span>
+                        </div>
+
+                        <div style="
+                            color: #00AEEF;
+                            font-weight: bold;
+                            text-shadow: 1px 1px 2px #000000;
+                        ">
+                            [X]
+                        </div>
+
                     </div>
                 </a>
             </div>
 
-            <strong style="color: #00AEEF;">SIGNAL_STATUS: UNWELL</strong>
-            <div class="divider"></div>
-
-            <strong style="color: #00AEEF;">IDENTITY_NODE:</strong>
-            <img src="Bambra Final Transparent.png" alt="BAMBRA SIGNAL">
+            <strong style="color: #00AEEF;">
+                SIGNAL_STATUS: UNWELL
+            </strong>
 
             <div class="divider"></div>
-            
+
+            <h2 class="section-heading">
+                IDENTITY_NODE:
+            </h2>
+
+            <img src="Bambra Final Transparent.png"
+                 alt="Bambra official industrial electronic music artist logo">
+
+            <div class="divider"></div>
+
+            <!-- ORIGINAL ARTIST BIOGRAPHY -->
             <div class="bio-text">
-                <p>Bambra, the project of Jon Bambra, is a Nottingham-based music and multimedia artist forging a distinctive path in industrial noise, harsh optics, and electronic sound structures. For specific outputs, Jon adopts an anti-music philosophy. Sounds bypass conventional composition and are engineered to operate "unwell," hijacking unpredictable tempos and constructing degrading, lo-fi experimental textures directly from field recordings, optical fragments, and manipulated signal paths.</p>
-                <p>The sonic signature reflects a dense cross-section of influences derived from mixed Irish, Pakistani, and Swiss ancestry: spooky drone, dark ambient, trippy downtempo, distorted big beat, techstep, punk, cyber synth, and the Asian underground. In the Bambra Noise context, frequency saturation and distorted transients produce a physical response—altered beats engineered as a direct reaction to sound impact. Backed by a Bachelor of Arts in Creative Music Technology from Nottingham Trent University (2016), every sonic log remains bound to visual photography and video capturing degraded environments.</p>
+
+                <p>
+                    Bambra, the project of Jon Bambra, is a
+                    Nottingham-based music and multimedia artist
+                    forging a distinctive path in industrial noise,
+                    harsh optics, and electronic sound structures.
+                    For specific outputs, Jon adopts an anti-music
+                    philosophy. Sounds bypass conventional composition
+                    and are engineered to operate "unwell," hijacking
+                    unpredictable tempos and constructing degrading,
+                    lo-fi experimental textures directly from field
+                    recordings, optical fragments, and manipulated
+                    signal paths.
+                </p>
+
+                <p>
+                    The sonic signature reflects a dense cross-section
+                    of influences derived from mixed Irish, Pakistani,
+                    and Swiss ancestry: spooky drone, dark ambient,
+                    trippy downtempo, distorted big beat, techstep,
+                    punk, cyber synth, and the Asian underground.
+                    In the Bambra Noise context, frequency saturation
+                    and distorted transients produce a physical
+                    response—altered beats engineered as a direct
+                    reaction to sound impact. Backed by a Bachelor
+                    of Arts in Creative Music Technology from
+                    Nottingham Trent University (2016), every sonic
+                    log remains bound to visual photography and video
+                    capturing degraded environments.
+                </p>
+
             </div>
 
             <div class="terminal-block">
                 [ DIAGNOSTIC: NO COMMERCIAL POLISH DETECTED ]<br>
-                [ AUDIO_ARRAY: FIELD RECORDINGS // UNSTABLE BPM // HIGH TRANSIENT DENSITY ]<br>
-                [ OPTIC_ARRAY: VHS RIP / DEGRADED INFRASTRUCTURE / HIGH CONTRAST ]
+                [ AUDIO_ARRAY: FIELD RECORDINGS //
+                UNSTABLE BPM // HIGH TRANSIENT DENSITY ]<br>
+                [ OPTIC ARRAY: VHS RIP /
+                DEGRADED INFRASTRUCTURE / HIGH CONTRAST ]
             </div>
+
+            <!-- OFFICIAL ARTIST PROFILES -->
+            <div class="artist-links">
+
+                <h2 class="section-heading">
+                    ARTIST_PROFILE_NODES:
+                </h2>
+
+                <div class="divider"></div>
+
+                [ <a href="https://bambra.bandcamp.com/"
+                     target="_blank"
+                     rel="noopener noreferrer">BANDCAMP</a> ]
+
+                [ <a href="https://open.spotify.com/artist/69mQrMkzgeUOEtbyclUWeQ"
+                     target="_blank"
+                     rel="noopener noreferrer">SPOTIFY</a> ]
+
+                [ <a href="https://www.discogs.com/artist/6575079-Bambra-2"
+                     target="_blank"
+                     rel="noopener noreferrer">DISCOGS</a> ]
+
+                <br>
+
+                [ <a href="https://soundcloud.com/bambra-noise"
+                     target="_blank"
+                     rel="noopener noreferrer">SOUNDCLOUD</a> ]
+
+                [ <a href="https://www.instagram.com/bambranoise/"
+                     target="_blank"
+                     rel="noopener noreferrer">INSTAGRAM</a> ]
+
+                [ <a href="https://www.mixcloud.com/bambranoise/"
+                     target="_blank"
+                     rel="noopener noreferrer">MIXCLOUD</a> ]
+
+                <br>
+
+                [ <a href="https://www.tiktok.com/@bambranoise"
+                     target="_blank"
+                     rel="noopener noreferrer">TIKTOK</a> ]
+
+                <div class="divider"></div>
+
+                <span style="
+                    color: #8A8D8F;
+                    font-size: 0.85em;
+                ">
+                    OFFICIAL ARTIST: BAMBRA<br>
+                    WEB ARCHIVE: BAMBRANOISE.NET
+                </span>
+
+            </div>
+
         </td>
     </tr>
 </table>
 
-<div style="margin-top: 30px; width: 100%; max-width: 900px; box-sizing: border-box; background: #0A0B0C; border: 1px solid #5A5D5F; padding: 20px; text-align: center; font-family: 'Courier New', monospace; font-size: 0.8em; letter-spacing: 1px; line-height: 1.6; box-shadow: 0 0 15px rgba(0, 174, 239, 0.15);">
-    <span style="color: #B5B8BA; font-weight: bold;">© 2026 BAMBRA</span> 
-    <span style="color: #5A5D5F;"> | </span> 
-    <span style="color: #8A8D8F;">Architecture by Jon Bambra</span>
-    <br>
-    <div style="margin-top: 5px; border-top: 1px dashed #2A2D2F; padding-top: 5px;">
-        <span style="color: #00AEEF; font-size: 0.9em; letter-spacing: 2px; font-weight: bold;">MIGRATED FROM THE MATRIX // UNWELL OPTICS SUSTAINED</span>
+<!-- ORIGINAL FOOTER -->
+<footer style="
+    margin-top: 30px;
+    width: 100%;
+    max-width: 900px;
+    background: #0A0B0C;
+    border: 1px solid #5A5D5F;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    box-shadow: 0 0 15px rgba(0, 174, 239, 0.15);
+">
+
+    <span style="
+        color: #B5B8BA;
+        font-weight: bold;
+    ">
+        © 2026 BAMBRA
+    </span>
+
+    <span style="color: #5A5D5F;">
+        |
+    </span>
+
+    <span style="color: #8A8D8F;">
+        Architecture by Jon Bambra
+    </span>
+
+    <div style="
+        margin-top: 5px;
+        border-top: 1px dashed #2A2D2F;
+        padding-top: 5px;
+    ">
+
+        <span style="
+            color: #00AEEF;
+            font-size: 0.9em;
+            letter-spacing: 2px;
+            font-weight: bold;
+        ">
+            MIGRATED FROM THE MATRIX //
+            UNWELL OPTICS SUSTAINED
+        </span>
+
     </div>
-</div>
+
+</footer>
 
 </body>
 </html>
