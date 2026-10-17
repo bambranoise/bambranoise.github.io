@@ -1,4 +1,5 @@
-<!-- 
+
+<!--
 ============================================================
 BAMBRA // ANTI-MUSIC ARCHIVE // SIGNAL TRANSMISSION TERMINAL
 ORIGIN: NOTTINGHAM / UNWELL SOUND LABS
@@ -10,61 +11,186 @@ PLAGIARISM REVEALS LACK OF ORIGINAL INTENT.
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BAMBRA // VISUAL DATA</title>
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <!-- SEARCH ENGINE IDENTITY -->
+    <title>Bambra | Music Videos, Photography & Visual Archive</title>
+
+    <meta name="description"
+          content="Explore the official visual archive of Bambra, a Nottingham-based industrial and experimental electronic music artist. Music videos, audiovisual experiments, photography and lo-fi imagery.">
+
+    <meta name="robots" content="index, follow">
+
+    <link rel="canonical"
+          href="https://bambranoise.net/visuals.html">
+
+    <meta name="theme-color" content="#000000">
+
+    <!-- SOCIAL PREVIEW -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Bambra">
+
+    <meta property="og:title"
+          content="Bambra // Visual Data Archive">
+
+    <meta property="og:description"
+          content="Music videos, experimental moving images, photography and visual transmissions from Bambra.">
+
+    <meta property="og:url"
+          content="https://bambranoise.net/visuals.html">
+
+    <meta property="og:image"
+          content="https://bambranoise.net/Bambra%20Final%20Transparent.png">
+
+    <meta name="twitter:card"
+          content="summary_large_image">
+
+    <!-- STRUCTURED DATA: ARTIST & VISUAL ARCHIVE -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MusicGroup",
+          "@id": "https://bambranoise.net/#bambra",
+          "name": "Bambra",
+          "url": "https://bambranoise.net/",
+          "description": "Nottingham-based industrial and experimental electronic music project.",
+          "member": {
+            "@type": "Person",
+            "name": "Jon Bambra"
+          },
+          "sameAs": [
+            "https://bambra.bandcamp.com/",
+            "https://open.spotify.com/artist/69mQrMkzgeUOEtbyclUWeQ",
+            "https://www.discogs.com/artist/6575079-Bambra-2",
+            "https://soundcloud.com/bambra-noise",
+            "https://www.instagram.com/bambranoise/"
+          ]
+        },
+        {
+          "@type": "CollectionPage",
+          "@id": "https://bambranoise.net/visuals.html#archive",
+          "name": "Bambra Visual Data Archive",
+          "url": "https://bambranoise.net/visuals.html",
+          "description": "Bambra music videos, experimental visual recordings and photography.",
+          "about": {
+            "@id": "https://bambranoise.net/#bambra"
+          },
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Bambra",
+            "url": "https://bambranoise.net/"
+          }
+        }
+      ]
+    }
+    </script>
+
     <style>
-        body { 
-            background-color: #000000; 
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000000;
             background-image: url('IMG_20241217_075607_1~2.jpg');
             background-size: cover;
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
-            color: #8A8D8F; /* Dull terminal grey to eliminate high-contrast glare */
-            font-family: "Courier New", monospace; 
-            margin: 0; 
+            color: #8A8D8F;
+            font-family: "Courier New", monospace;
+            margin: 0;
             padding: 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
         }
-        
-        /* Cyan signal link color sampled from the logo's energy arc */
-        a { color: #00AEEF; text-decoration: none; font-weight: bold; }
-        a:hover { color: #000000; text-decoration: none; background: #00AEEF; }
-        
-        .main-grid { 
+
+        a {
+            color: #00AEEF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #000000;
+            text-decoration: none;
+            background: #00AEEF;
+        }
+
+        a:focus-visible {
+            outline: 2px solid #00AEEF;
+            outline-offset: 3px;
+        }
+
+        .main-grid {
             width: 100%;
-            max-width: 900px; 
-            background: rgba(10, 11, 12, 0.93); /* Deep graphite vault background */
+            max-width: 900px;
+            background: rgba(10, 11, 12, 0.93);
             border-collapse: collapse;
             margin-top: 20px;
-            
-            /* CHISELED STEEL BORDER STRUCTURE SAMPLE FROM "Bambra Final Flat Merged.jpg" */
             border: 4px solid;
-            border-image: linear-gradient(135deg, #1F2021 0%, #D1D4D6 25%, #101111 50%, #FFFFFF 75%, #5A5D5F 100%) 1;
-            box-shadow: 0 0 15px rgba(0, 174, 239, 0.15); /* Cyan ionization glow */
+            border-image: linear-gradient(
+                135deg,
+                #1F2021 0%,
+                #D1D4D6 25%,
+                #101111 50%,
+                #FFFFFF 75%,
+                #5A5D5F 100%
+            ) 1;
+            box-shadow: 0 0 15px rgba(0, 174, 239, 0.15);
         }
-        .header { 
-            border-bottom: 2px solid #5A5D5F; /* Metallic mid-tone divider */
-            padding: 20px; 
-            text-align: center; 
+
+        .header {
+            border-bottom: 2px solid #5A5D5F;
+            padding: 20px;
+            text-align: center;
         }
-        .nav { 
-            width: 220px; 
-            border-right: 2px dashed #5A5D5F; 
-            padding: 15px; 
-            vertical-align: top; 
+
+        .page-title {
+            font-size: 1.8em;
+            color: #B5B8BA;
+            text-shadow: 1px 1px 2px #000000;
+            font-weight: bold;
+            margin: 0;
         }
-        .content { 
-            padding: 25px; 
-            vertical-align: top; 
+
+        .nav {
+            width: 220px;
+            border-right: 2px dashed #5A5D5F;
+            padding: 15px;
+            vertical-align: top;
         }
-        .subtitle { color: #00AEEF; font-size: 0.85em; margin-top: 5px; letter-spacing: 2px; }
-        .divider { border-top: 2px dashed #5A5D5F; margin: 15px 0; }
-        img { max-width: 100%; height: auto; display: block; margin: 10px 0; border: 1px solid #5A5D5F; }
-        .gallery-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px; }
-        
+
+        .content {
+            padding: 25px;
+            vertical-align: top;
+        }
+
+        .subtitle {
+            color: #00AEEF;
+            font-size: 0.85em;
+            margin-top: 5px;
+            letter-spacing: 2px;
+        }
+
+        .divider {
+            border-top: 2px dashed #5A5D5F;
+            margin: 15px 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+            border: 1px solid #5A5D5F;
+        }
+
         .nav-thumb {
             width: 100%;
             max-width: 180px;
@@ -72,68 +198,499 @@ PLAGIARISM REVEALS LACK OF ORIGINAL INTENT.
             border: 1px solid #5A5D5F;
         }
 
+        .section-heading {
+            color: #00AEEF;
+            font-size: 1em;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .archive-intro {
+            color: #B5B8BA;
+            font-size: 0.85em;
+            line-height: 1.6;
+            margin: 15px 0 25px;
+        }
+
+        /* VIDEO ARCHIVE */
+        .video-block {
+            background: rgba(20, 22, 24, 0.65);
+            border: 1px dashed #5A5D5F;
+            padding: 15px;
+            margin-bottom: 25px;
+        }
+
+        .video-title {
+            color: #B5B8BA;
+            font-size: 1em;
+            font-weight: bold;
+            margin: 0 0 10px;
+        }
+
+        .video-meta {
+            color: #8A8D8F;
+            font-size: 0.8em;
+            margin: 10px 0;
+        }
+
+        .video-frame {
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            border: 1px solid #5A5D5F;
+            background: #000000;
+            display: block;
+        }
+
+        .video-link {
+            display: inline-block;
+            margin-top: 12px;
+            font-size: 0.85em;
+        }
+
+        /* PHOTOGRAPHY */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns:
+                repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .gallery-item {
+            background: rgba(20, 22, 24, 0.65);
+            border: 1px dashed #5A5D5F;
+            padding: 10px;
+            min-width: 0;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            margin: 0;
+        }
+
+        .gallery-caption {
+            color: #B5B8BA;
+            font-size: 0.8em;
+            margin-top: 10px;
+        }
+
+        .terminal-block {
+            background: #000000;
+            border: 1px solid #5A5D5F;
+            padding: 12px;
+            color: #00AEEF;
+            font-size: 0.8em;
+            line-height: 1.8;
+            margin-top: 20px;
+        }
+
         marquee {
-            background: #D1D4D6; /* Steel gray warning tape */
+            background: #D1D4D6;
             color: #000000;
             font-weight: bold;
             padding: 3px 0;
             margin-top: 10px;
             font-size: 0.85em;
         }
+
+        /* MOBILE COMPATIBILITY */
+        @media (max-width: 700px) {
+            body {
+                padding: 10px;
+                background-attachment: scroll;
+            }
+
+            .main-grid,
+            .main-grid tbody,
+            .main-grid tr,
+            .main-grid td {
+                display: block;
+                width: 100%;
+            }
+
+            .main-grid {
+                margin-top: 10px;
+            }
+
+            .nav {
+                border-right: none;
+                border-bottom: 2px dashed #5A5D5F;
+            }
+
+            .content {
+                padding: 15px;
+            }
+
+            .header {
+                padding: 15px;
+            }
+
+            .page-title {
+                font-size: 1.4em;
+            }
+
+            .video-block {
+                padding: 10px;
+            }
+
+            .gallery-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .subtitle {
+                letter-spacing: 1px;
+            }
+        }
     </style>
 </head>
+
 <body>
 
-<table class="main-grid">
+<table class="main-grid" role="presentation">
+
     <tr>
         <td colspan="2" class="header">
-            <!-- Weathered Zinc allocation cuts corporate white glare -->
-            <strong style="font-size: 1.8em; color: #B5B8BA; text-shadow: 1px 1px 2px #000000;">BAMBRA // VISUAL DATA ARCHIVE</strong>
-            <div class="subtitle">NOTTINGHAM // PHOTOGRAPHY // VIDEO // FOUND DATA</div>
-            <marquee scrollamount="4">TRANSMISSION FEED: STILLS AND MOVING IMAGES FROM THE FIELD // UNWELL OPTICS</marquee>
+
+            <h1 class="page-title">
+                BAMBRA // VISUAL DATA ARCHIVE
+            </h1>
+
+            <div class="subtitle">
+                NOTTINGHAM // PHOTOGRAPHY // VIDEO // FOUND DATA
+            </div>
+
+            <marquee scrollamount="4">
+                TRANSMISSION FEED: STILLS AND MOVING IMAGES
+                FROM THE FIELD // UNWELL OPTICS
+            </marquee>
+
         </td>
     </tr>
+
     <tr>
         <td class="nav">
-            <strong style="color: #00AEEF;">DATA INDEX</strong>
+
+            <strong style="color: #00AEEF;">
+                DATA INDEX
+            </strong>
+
             <div class="divider"></div>
-            • <a href="index.html">LOG_000 (HOME)</a><br><br>
-            • <a href="https://bambra.bandcamp.com" target="_blank">BANDCAMP_NODE</a><br><br>
-            • <a href="audio.html">AUDIO_LOGS</a><br><br>
-            • <a href="visuals.html">VISUAL_DATA</a>
-            
-            <br>
-            <a href="VHS%20Rip%201980.jpg" target="_blank">
-                <img src="VHS%20Rip%201980.jpg" alt="FIELD COMPONENT" class="nav-thumb">
+
+            • <a href="index.html">
+                LOG_000 (HOME)
+            </a><br><br>
+
+            • <a href="https://bambra.bandcamp.com/"
+                 target="_blank"
+                 rel="noopener noreferrer">
+                BANDCAMP_NODE
+            </a><br><br>
+
+            • <a href="audio.html">
+                AUDIO_LOGS
+            </a><br><br>
+
+            • <a href="visuals.html">
+                VISUAL_DATA
             </a>
+
+            <div class="divider"></div>
+
+            <a href="VHS%20Rip%201980.jpg"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                <img src="VHS%20Rip%201980.jpg"
+                     alt="Bambra VHS field image"
+                     class="nav-thumb">
+            </a>
+
         </td>
+
         <td class="content">
-            <strong style="color: #00AEEF;">MOVING_IMAGES (VIDEOS)</strong>
-            <div class="divider"></div>
-            
-            <p style="color: #B5B8BA;">• <a href="https://www.youtube.com/watch?v=nZrU1o4GWdc" target="_blank">Bambra - Grimy (Official Video via Futurepast Zine)</a></p>
-            <div class="divider"></div>
-            <strong style="color: #00AEEF;">STILLS (PHOTOGRAPHY ARCHIVE)</strong>
-            <div class="divider"></div>
-            
-            <div class="gallery-grid">
-                <a href="Hard and Loud.jpg" target="_blank"><img src="Hard and Loud.jpg" alt="Photo 1"></a>
-                <a href="0026628020_10.jpeg" target="_blank"><img src="0026628020_10.jpeg" alt="Photo 2"></a>
-            </div>
+
+            <main>
+
+                <h2 class="section-heading">
+                    MOVING_IMAGES (VIDEOS)
+                </h2>
+
+                <div class="divider"></div>
+
+                <p class="archive-intro">
+                    Moving image transmissions from the
+                    Bambra visual archive. Music videos,
+                    experimental imagery and audiovisual
+                    recordings associated with the
+                    Nottingham electronic music project.
+                </p>
+
+                <!-- VIDEO LOG 001: GRIMY -->
+                <section class="video-block">
+
+                    <h3 class="video-title">
+                        VIDEO_LOG_001 //
+                        BAMBRA - GRIMY (OFFICIAL VIDEO)
+                    </h3>
+
+                    <div class="video-meta">
+                        SOURCE: FUTUREPAST ZINE //
+                        RELEASE: HARD AND LOUD
+                    </div>
+
+                    <iframe
+                        class="video-frame"
+                        src="https://www.youtube-nocookie.com/embed/nZrU1o4GWdc"
+                        title="Bambra - Grimy official video"
+                        loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+
+                    <a class="video-link"
+                       href="https://www.youtube.com/watch?v=nZrU1o4GWdc"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        [ OPEN ORIGINAL YOUTUBE TRANSMISSION ]
+                    </a>
+
+                </section>
+
+                <!-- VIDEO LOG 002 -->
+                <section class="video-block">
+
+                    <h3 class="video-title">
+                        VIDEO_LOG_002 // ARCHIVE TRANSMISSION
+                    </h3>
+
+                    <div class="video-meta">
+                        SOURCE: YOUTUBE //
+                        ID: CB0e4zJzyWY
+                    </div>
+
+                    <iframe
+                        class="video-frame"
+                        src="https://www.youtube-nocookie.com/embed/CB0e4zJzyWY"
+                        title="Bambra visual archive - video log 002"
+                        loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+
+                    <a class="video-link"
+                       href="https://www.youtube.com/watch?v=CB0e4zJzyWY"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        [ OPEN ORIGINAL YOUTUBE TRANSMISSION ]
+                    </a>
+
+                </section>
+
+                <!-- VIDEO LOG 003 -->
+                <section class="video-block">
+
+                    <h3 class="video-title">
+                        VIDEO_LOG_003 // ARCHIVE TRANSMISSION
+                    </h3>
+
+                    <div class="video-meta">
+                        SOURCE: YOUTUBE //
+                        ID: PzGa7gO82LQ
+                    </div>
+
+                    <iframe
+                        class="video-frame"
+                        src="https://www.youtube-nocookie.com/embed/PzGa7gO82LQ"
+                        title="Bambra visual archive - video log 003"
+                        loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+
+                    <a class="video-link"
+                       href="https://www.youtube.com/watch?v=PzGa7gO82LQ"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        [ OPEN ORIGINAL YOUTUBE TRANSMISSION ]
+                    </a>
+
+                </section>
+
+                <!-- VIDEO LOG 004 -->
+                <section class="video-block">
+
+                    <h3 class="video-title">
+                        VIDEO_LOG_004 // ARCHIVE TRANSMISSION
+                    </h3>
+
+                    <div class="video-meta">
+                        SOURCE: YOUTUBE //
+                        ID: Co3VkyinHgM
+                    </div>
+
+                    <iframe
+                        class="video-frame"
+                        src="https://www.youtube-nocookie.com/embed/Co3VkyinHgM"
+                        title="Bambra visual archive - video log 004"
+                        loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+
+                    <a class="video-link"
+                       href="https://www.youtube.com/watch?v=Co3VkyinHgM"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        [ OPEN ORIGINAL YOUTUBE TRANSMISSION ]
+                    </a>
+
+                </section>
+
+                <!-- VIDEO LOG 005 -->
+                <section class="video-block">
+
+                    <h3 class="video-title">
+                        VIDEO_LOG_005 // ARCHIVE TRANSMISSION
+                    </h3>
+
+                    <div class="video-meta">
+                        SOURCE: YOUTUBE //
+                        ID: 15mmTOCo4OQ
+                    </div>
+
+                    <iframe
+                        class="video-frame"
+                        src="https://www.youtube-nocookie.com/embed/15mmTOCo4OQ"
+                        title="Bambra visual archive - video log 005"
+                        loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+
+                    <a class="video-link"
+                       href="https://www.youtube.com/watch?v=15mmTOCo4OQ"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        [ OPEN ORIGINAL YOUTUBE TRANSMISSION ]
+                    </a>
+
+                </section>
+
+                <!-- ORIGINAL IMAGE ARCHIVE -->
+                <h2 class="section-heading">
+                    STILLS (PHOTOGRAPHY ARCHIVE)
+                </h2>
+
+                <div class="divider"></div>
+
+                <div class="gallery-grid">
+
+                    <div class="gallery-item">
+
+                        <a href="Hard and Loud.jpg"
+                           target="_blank"
+                           rel="noopener noreferrer">
+
+                            <img src="Hard and Loud.jpg"
+                                 alt="Bambra - Hard and Loud artwork"
+                                 loading="lazy">
+                        </a>
+
+                        <div class="gallery-caption">
+                            HARD_AND_LOUD //
+                            VISUAL_ARCHIVE_001
+                        </div>
+
+                    </div>
+
+                    <div class="gallery-item">
+
+                        <a href="0026628020_10.jpeg"
+                           target="_blank"
+                           rel="noopener noreferrer">
+
+                            <img src="0026628020_10.jpeg"
+                                 alt="Hard and Loud visual archive image"
+                                 loading="lazy">
+                        </a>
+
+                        <div class="gallery-caption">
+                            HARD_AND_LOUD //
+                            VISUAL_ARCHIVE_002
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="terminal-block">
+                    [ VIDEO_ARRAY: 05 TRANSMISSIONS LINKED ]<br>
+                    [ IMAGE_ARRAY: 02 VISUAL RECORDS ]<br>
+                    [ SOURCE: YOUTUBE / LOCAL ARCHIVE ]<br>
+                    [ STATUS: VISUAL SIGNAL ACTIVE ]
+                </div>
+
+            </main>
+
         </td>
     </tr>
 </table>
 
-<!-- CRITICAL CONTRAST ISOLATION SHIELD FOR FOOTER TERMINAL -->
-<div style="margin-top: 30px; width: 100%; max-width: 900px; box-sizing: border-box; background: #0A0B0C; border: 1px solid #5A5D5F; padding: 20px; text-align: center; font-family: 'Courier New', monospace; font-size: 0.8em; letter-spacing: 1px; line-height: 1.6; box-shadow: 0 0 15px rgba(0, 174, 239, 0.15);">
-    <span style="color: #B5B8BA; font-weight: bold;">© 2026 BAMBRA</span> 
-    <span style="color: #5A5D5F;"> | </span> 
-    <span style="color: #8A8D8F;">Architecture by Jon Bambra</span>
-    <br>
-    <div style="margin-top: 5px; border-top: 1px dashed #2A2D2F; padding-top: 5px;">
-        <span style="color: #00AEEF; font-size: 0.9em; letter-spacing: 2px; font-weight: bold;">MIGRATED FROM THE MATRIX // UNWELL OPTICS SUSTAINED</span>
+<!-- ORIGINAL FOOTER -->
+<footer style="
+    margin-top: 30px;
+    width: 100%;
+    max-width: 900px;
+    background: #0A0B0C;
+    border: 1px solid #5A5D5F;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    box-shadow: 0 0 15px rgba(0, 174, 239, 0.15);
+">
+
+    <span style="
+        color: #B5B8BA;
+        font-weight: bold;
+    ">
+        © 2026 BAMBRA
+    </span>
+
+    <span style="color: #5A5D5F;">
+        |
+    </span>
+
+    <span style="color: #8A8D8F;">
+        Architecture by Jon Bambra
+    </span>
+
+    <div style="
+        margin-top: 5px;
+        border-top: 1px dashed #2A2D2F;
+        padding-top: 5px;
+    ">
+
+        <span style="
+            color: #00AEEF;
+            font-size: 0.9em;
+            letter-spacing: 2px;
+            font-weight: bold;
+        ">
+            MIGRATED FROM THE MATRIX //
+            UNWELL OPTICS SUSTAINED
+        </span>
+
     </div>
-</div>
+
+</footer>
 
 </body>
 </html>
